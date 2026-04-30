@@ -1,0 +1,70 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CENTRALIZAÇÃO TOTAL */
+body {
+    background-color: cyan;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+  justify-content: center;  /* horizontal */
+  align-items: center;      /* vertical */
+  min-height: 100vh;        /* altura total da tela */
+}
+
+/* CONTAINER PRINCIPAL */
+.container {
+    background: rgb(99, 214, 234);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+/* TOPO (imagem + tabela) */
+.topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+/* IMAGEM */
+.imagem {
+    width: 150px;
+    border-radius: 65%;
+}
+
+/* TABELA */
+.tabela {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #333;
+    padding: 6px;
+}
+
+/* INPUTS */
+input {
+    margin: 5px;
+    padding: 8px;
+    width: 80%;
+}
+
+/* BOTÃO */
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
