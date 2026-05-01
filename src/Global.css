@@ -68,3 +68,9 @@ button {
     padding: 10px 20px;
     cursor: pointer;
 }
+
+@media (max-width: 500px) {
+    .topo {
+        flex-direction: column;
+    }
+}
