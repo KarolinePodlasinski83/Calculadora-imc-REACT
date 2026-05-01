@@ -3,7 +3,7 @@ import Formulario from "./components/Formulario";
 import Resultado from "./components/Resultado";
 import TabelaIMC from "./components/TabelaIMC";
 import pessoa from "./assets/pessoa.jpeg";
-import "./global.css";
+import "./Global.css";
 
 function App() {
   const [dados, setDados] = useState({
